@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.spec
+.venv/
+.DS_Store
+*.log
+runs/
+*.egg-info/
+release/
+main_backup.py
+.env.*
+!.env.example

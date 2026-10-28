@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "demo": {
+      "command": ["{python}", "{project}/server/demo_mcp_server.py"]
+    }
+  }
+}
