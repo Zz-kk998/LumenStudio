@@ -24,7 +24,7 @@ def build():
         "main.py"], cwd=ROOT, check=True)
     subprocess.run(common + ["--name", "demo_mcp_server",
         "server/demo_mcp_server.py"], cwd=ROOT, check=True)
-    print("构建成功：dist/ 下的 DesktopAgent 与 demo_mcp_server 必须放在一起。")
+    print("Build complete: DesktopAgent.exe and demo_mcp_server.exe are in dist/")
     return 0
 
 if __name__ == "__main__":
